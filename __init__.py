@@ -1,8 +1,8 @@
-"""This is init module."""
+# __init__.py
 
 from flask import Flask
 
-# Place where app is defined
+# определение приложения
 app = Flask(__name__)
 
 from app import usersData
